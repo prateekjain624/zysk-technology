@@ -7,6 +7,7 @@ import lightbox from "../images/lightbox.png";
 import nietzsche from "../images/neitzche.png";
 import spherule from "../images/speherule.png";
 import arrowright from "../images/arrow-right.png";
+import playcircle from "../images/play-circle.png";
 
 const Hero = () => {
   return (
@@ -27,8 +28,11 @@ const Hero = () => {
           engage, and retain more users. Trusted by over 4,000 startups.
         </p>
         <div className="cta-buttons">
-          <button className="demo-btn">Demo</button>
           <button className="signup-btn">Sign up</button>
+          <button className="demo-btn">
+            <img src={playcircle} alt="" />
+            Demo
+          </button>
         </div>
       </section>
 

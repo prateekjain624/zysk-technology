@@ -1,5 +1,6 @@
 import React from "react";
 import zysk from "../images/zysk.png";
+import navmenubtn from "../images/navmenubtn.png";
 
 import profile from "../images/profile.jpg";
 const Navbar = () => {
@@ -11,17 +12,7 @@ const Navbar = () => {
             <img src={zysk} className="image-1" alt="" />
           </div>
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
@@ -100,6 +91,17 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      <button
+        className="navbar-toggler btn-changes"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <img src={navmenubtn} alt="" />
+      </button>
       <div className="profile-container">
         <img className="profile" src={profile} alt="" />
       </div>
