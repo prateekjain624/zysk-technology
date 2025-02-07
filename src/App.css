@@ -471,7 +471,7 @@
 }
 
 .contact-btn {
-  background-color: #e63946;
+  background-color: rgba(230, 63, 58, 1);
   color: white;
   border: 1px solid rgba(230, 63, 58, 1);
   padding: 10px 20px;
@@ -532,7 +532,7 @@
 }
 
 .blog-container .blog-btn button {
-  background-color: #e63946;
+  background-color: rgba(230, 63, 58, 1);
   color: white;
   border: 1px solid rgba(230, 63, 58, 1);
   padding: 10px 20px;
@@ -640,7 +640,7 @@
   }
 
   .blog-btn-full-width {
-    background-color: #e53935; /* Red color */
+    background-color: rgba(230, 63, 58, 1);
     color: white;
     font-size: 16px;
     margin-top: 48px;
