@@ -1,7 +1,7 @@
 import React from "react";
-import image1 from "../images/blogimages/image1.png";
-import image2 from "../images/blogimages/image2.png";
-import image3 from "../images/blogimages/image3.png";
+import image1 from "../images/blogimages/design.png";
+import image2 from "../images/blogimages/product.png";
+import image3 from "../images/blogimages/software.png";
 
 const Blog = () => {
   return (
