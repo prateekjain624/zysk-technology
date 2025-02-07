@@ -264,7 +264,9 @@
 }
 
 .sisyphus-section .testimonial-container {
-  padding: 50px;
+  width: 85%;
+  padding-block: 96px;
+  padding-inline: 32px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
