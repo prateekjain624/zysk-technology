@@ -6,6 +6,7 @@ import globalbank from "../images/globalbank.png";
 import lightbox from "../images/lightbox.png";
 import nietzsche from "../images/neitzche.png";
 import spherule from "../images/speherule.png";
+import arrowright from "../images/arrow-right.png";
 
 const Hero = () => {
   return (
@@ -14,7 +15,10 @@ const Hero = () => {
         <div className="announcement-banner">
           <span className="new-feature">New feature</span>
           <a href="#" className="announcement-link">
-            Check out the team dashboard <span className="arrow">→</span>
+            Check out the team dashboard{" "}
+            <span className="arrow">
+              <img src={arrowright} alt="" />
+            </span>
           </a>
         </div>
         <h1 className="headline">Beautiful analytics to grow smarter</h1>
