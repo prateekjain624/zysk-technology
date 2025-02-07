@@ -92,6 +92,9 @@ const Blog = () => {
             </div>
           </div>
         </div>
+        <div className="blog-btn-full-width viewall-Btn-show ">
+          <span className="view-all-btn">view all posts</span>
+        </div>
       </div>
     </section>
   );

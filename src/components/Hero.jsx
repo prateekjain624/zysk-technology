@@ -17,7 +17,9 @@ const Hero = () => {
           <span className="new-feature">New feature</span>
           <a href="#" className="announcement-link">
             Check out the team dashboard
-            <span className="arrow">→</span>
+            <span className="arrow">
+              <img src={arrowright} alt="arrow right" />
+            </span>
           </a>
         </div>
         <h1 className="headline">Beautiful analytics to grow smarter</h1>

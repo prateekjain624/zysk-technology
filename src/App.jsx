@@ -15,13 +15,13 @@ function App() {
       <div className="center-container">
         <Navbar />
         <Hero />
-        {/* <Features /> */}
-        {/* <Sisyphus /> */}
-        {/* <Faq /> */}
-        {/* <Getintouch /> */}
-        {/* <Blog /> */}
-        {/* <Cta /> */}
-        {/* <Footer /> */}
+        <Features />
+        <Sisyphus />
+        <Faq />
+        <Getintouch />
+        <Blog />
+        <Cta />
+        <Footer />
       </div>
     </>
   );

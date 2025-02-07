@@ -62,10 +62,6 @@
   border-radius: 25px;
   background-color: #fff5f5;
   padding: 8px 15px;
-  font-size: 16px;
-  color: #d32f2f;
-  font-weight: bold;
-
   gap: 12px;
 }
 
@@ -317,6 +313,17 @@
 }
 
 @media screen and (max-width: 768px) {
+  .mt-80 {
+    margin-top: 80px !important;
+  }
+
+  .feature-headline1 {
+    padding-top: 12px;
+  }
+
+  .feature-subtext {
+    padding-top: 16px;
+  }
 }
 
 /*********************************** sisyphus-section************************************** */
@@ -348,10 +355,12 @@
   display: flex;
   gap: 5px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
-.sisyphus-section .logo p {
+.sisyphus-section .logo span {
   font-weight: 500;
+  color: rgba(16, 24, 40, 1);
 }
 
 .sisyphus-section .logo img {
@@ -372,6 +381,7 @@
 
 .sisyphus-section .author {
   margin-bottom: 10px;
+  margin-top: 32px;
 }
 
 .sisyphus-section .author img {
@@ -398,6 +408,23 @@
 }
 
 @media screen and (max-width: 768px) {
+  .sisyphus-section .testimonial-container {
+    width: 100%;
+  }
+
+  .sisyphus-section .logo span {
+    font-size: 25px;
+  }
+
+  .sisyphus-section .logo img {
+    width: 30px;
+    height: 40px;
+  }
+
+  .sisyphus-section .testimonial {
+    font-size: 30px;
+    line-height: 38px;
+  }
 }
 
 /************************************** get in touch css **********************************/
@@ -407,7 +434,7 @@
   background-color: rgba(249, 250, 251, 1);
   padding: 30px;
   border-radius: 10px;
-  margin-block: 20px;
+  margin: 15px;
 }
 
 .avatar-group {
@@ -591,6 +618,33 @@
 }
 
 @media screen and (max-width: 768px) {
+  .viewall-Btn-hide {
+    display: none;
+  }
+
+  .viewall-Btn-show {
+    display: block;
+  }
+
+  .blog-container .blog-top {
+    padding-top: 64px;
+    margin-bottom: 0;
+  }
+
+  .blog-btn-full-width {
+    background-color: #e53935; /* Red color */
+    color: white;
+    font-size: 16px;
+    margin-top: 48px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    width: 100%; /* Full width */
+  }
 }
 
 /********************************* cta section css**************************************** */
@@ -621,7 +675,9 @@
 }
 
 .cta-container .btn-container {
-  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .cta-container .cta-btn-1 {
@@ -653,6 +709,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  .cta-container .btn-container {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 32px;
+  }
+
+  .cta-container .cta-title {
+    padding-top: 64px;
+  }
 }
 
 /*************************************** footer section css *******************************/
@@ -741,29 +806,9 @@
 /* media queries */
 
 @media screen and (max-width: 768px) {
-  /* sisyphus section */
-
-  .sisyphus-section .logo {
-    margin-bottom: 0;
-  }
-
-  .testimonial {
-    font-size: 30px;
-  }
-
   .card {
     width: 100%;
     margin-top: 48px;
-  }
-
-  /* blog section media-queries */
-
-  .viewall-Btn-hide {
-    display: none;
-  }
-
-  .viewall-Btn-show {
-    display: block;
   }
 
   /* footer section media-queries */

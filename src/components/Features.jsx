@@ -21,9 +21,9 @@ const Features = () => {
       </div>
       <div className="feature-grid row">
         <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
-          <div className="row">
+          <div className="row ">
             <div className="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
-              <div className="row">
+              <div className="row mt-80">
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                   <img src={icon1} alt="" />
                 </div>

@@ -6,7 +6,7 @@ const Sisyphus = () => {
       <div className="testimonial-container">
         <div className="logo">
           <img src={logo} alt="Sisyphus Logo" />
-          <p>Sisyphus</p>
+          <span>Sisyphus</span>
         </div>
         <p className="testimonial">
           We've been using Untitled to kick start every new project and can't
