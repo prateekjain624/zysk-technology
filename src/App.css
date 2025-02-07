@@ -184,6 +184,7 @@
   align-items: center;
   gap: 57px;
   flex-wrap: wrap;
+  margin-bottom: 80px;
 }
 
 .logo {
@@ -437,6 +438,7 @@
   padding: 30px;
   border-radius: 10px;
   margin: 15px;
+  margin-bottom: 70px;
 }
 
 .avatar-group {
@@ -489,6 +491,10 @@
 }
 
 /*********************************** blog section css *********************************/
+
+.blog-container {
+  margin-top: 70px;
+}
 
 .blogs {
   display: flex;
@@ -656,7 +662,7 @@
   background-color: rgba(249, 250, 251, 1);
   padding: 30px;
   border-radius: 10px;
-  margin-block: 20px;
+  margin-block: 70px;
   margin-left: -8vw;
   margin-right: -8vw;
 }
@@ -680,6 +686,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  padding: 40px 40px;
 }
 
 .cta-container .cta-btn-1 {
