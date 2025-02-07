@@ -109,6 +109,7 @@
 .cta-buttons {
   display: flex;
   justify-content: center;
+  flex-direction: row-reverse;
   gap: 20px;
 }
 
@@ -136,7 +137,7 @@
 }
 
 .signup-btn {
-  background-color: #d93025;
+  background-color: rgba(230, 63, 58, 1);
   color: white;
 }
 
