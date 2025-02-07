@@ -722,6 +722,8 @@
     width: 100%;
     flex-direction: column;
     padding-top: 32px;
+    padding-bottom: 40px;
+    padding-inline: 0;
   }
 
   .cta-container .cta-title {
