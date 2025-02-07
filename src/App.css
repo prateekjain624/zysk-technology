@@ -11,7 +11,7 @@
   padding: 0 8vw;
 }
 
-/* Navbar css */
+/********************************* Navbar css *********************************************/
 .nav-center {
   display: flex;
   flex-wrap: inherit;
@@ -35,7 +35,15 @@
   border-radius: 50%;
 }
 
-/* hero section */
+@media screen and (max-width: 768px) {
+  /* navbar section */
+
+  .profile-container {
+    display: none;
+  }
+}
+
+/************************* hero section **********************************************/
 .hero-section {
   text-align: center;
   padding: 40px 20px;
@@ -80,7 +88,7 @@
   font-size: 50px;
   font-weight: 600;
   color: rgba(16, 24, 40, 1);
-  margin: 20px 0;
+  margin: 16px 0;
 }
 
 .subtext {
@@ -145,10 +153,9 @@
 
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Logo Section Styling */
 .logo-section {
   padding-top: 40px;
 }
@@ -156,7 +163,7 @@
 .logo-heading {
   font-size: 16px;
   font-weight: 500;
-  color: #6b7280; /* Neutral gray */
+  color: #6b7280;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -180,7 +187,47 @@
   transform: scale(1.1);
 }
 
-/* features section */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    padding: 0;
+    padding-top: 64px;
+  }
+  .announcement-banner {
+    border: 1px solid rgba(214, 187, 251, 1);
+    margin-inline: -30px;
+    margin-bottom: 0;
+  }
+
+  .headline {
+    font-size: 36px;
+  }
+
+  .subtext {
+    max-width: 100%;
+    font-size: 18px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .interactive-image {
+    width: 365px;
+    height: 194px;
+  }
+
+  .logo-container {
+    gap: 20px;
+  }
+
+  .new-feature {
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid rgba(214, 187, 251, 1);
+  }
+}
+
+/*************************** features section*******************************************/
 .features-section {
   padding-top: 96px;
   text-align: center;
@@ -251,7 +298,10 @@
   text-decoration-skip-ink: none;
 }
 
-/* sisyphus-section */
+@media screen and (max-width: 768px) {
+}
+
+/*********************************** sisyphus-section************************************** */
 
 .sisyphus-section {
   display: flex;
@@ -329,7 +379,10 @@
   color: rgba(71, 84, 103, 1);
 }
 
-/* get in touch css */
+@media screen and (max-width: 768px) {
+}
+
+/************************************** get in touch css **********************************/
 
 .support-container {
   text-align: center;
@@ -385,7 +438,10 @@
   background-color: #d62839;
 }
 
-/* blog section css */
+@media screen and (max-width: 768px) {
+}
+
+/*********************************** blog section css *********************************/
 
 .blogs {
   display: flex;
@@ -516,7 +572,10 @@
   display: none;
 }
 
-/* cta section css */
+@media screen and (max-width: 768px) {
+}
+
+/********************************* cta section css**************************************** */
 
 .cta-container {
   text-align: center;
@@ -575,7 +634,10 @@
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
 
-/* footer section css */
+@media screen and (max-width: 768px) {
+}
+
+/*************************************** footer section css *******************************/
 
 .footer {
   background: #fff;
@@ -661,28 +723,7 @@
 /* media queries */
 
 @media screen and (max-width: 768px) {
-  /* navbar section */
-
-  .profile-container {
-    display: none;
-  }
-
   /* hero-section */
-
-  .announcement-banner {
-    border: 1px solid rgba(214, 187, 251, 1);
-    margin-inline: -30px;
-  }
-
-  .subtext {
-    max-width: 100%;
-  }
-
-  .new-feature {
-    font-size: 12px;
-    font-weight: 500;
-    border: 1px solid rgba(214, 187, 251, 1);
-  }
 
   /* sisyphus section */
 
