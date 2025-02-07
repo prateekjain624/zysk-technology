@@ -295,7 +295,7 @@
   line-height: 60px;
   letter-spacing: -0.02em;
   text-align: center;
-
+  color: rgba(16, 24, 40, 1);
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
@@ -495,7 +495,7 @@
   margin-bottom: 10px;
 }
 
-.author {
+.card-container .author {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -504,7 +504,7 @@
   margin-top: 10px;
 }
 
-.author img {
+.card-container .author img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -672,10 +672,24 @@
     margin-inline: -30px;
   }
 
+  .subtext {
+    max-width: 100%;
+  }
+
   .new-feature {
     font-size: 12px;
     font-weight: 500;
     border: 1px solid rgba(214, 187, 251, 1);
+  }
+
+  /* sisyphus section */
+
+  .sisyphus-section .logo {
+    margin-bottom: 0;
+  }
+
+  .testimonial {
+    font-size: 30px;
   }
 
   .card {
@@ -683,16 +697,14 @@
     margin-top: 48px;
   }
 
+  /* blog section media-queries */
+
   .viewall-Btn-hide {
     display: none;
   }
 
   .viewall-Btn-show {
     display: block;
-  }
-
-  .subtext {
-    max-width: 100%;
   }
 
   /* footer section media-queries */
